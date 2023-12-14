@@ -91,3 +91,10 @@ function createAccordion(el) {
 }
 
 document.querySelectorAll('details').forEach(createAccordion);
+
+
+let year = document.getElementById('year');
+
+let fullYear = new Date().getFullYear();
+
+year.innerHTML = fullYear;

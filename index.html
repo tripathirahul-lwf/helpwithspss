@@ -17,7 +17,39 @@
 </head>
 
 <body>
-    <?php include "navbar.php" ?>
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/assesment-help-02.webp" class="logo" alt="logo" /></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service" role="button">
+                            <i class="fa fa-users" aria-hidden="true"></i>&nbsp;Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;Reviews
+                            4.95/5</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq"><i class="fa fa-question" aria-hidden="true"></i>&nbsp;Faq</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;Contact
+                            us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
     <section class="hero-sec">
         <div class='text-white'>
             <div class='container'>
@@ -746,7 +778,55 @@
 
         </div>
     </section>
-    <?php include "footer.php" ?>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <a href="index.html"><img src="" alt="logo" class="img-fluid logo-footer" /></a>
+                    <div class="footer-about">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="social-links">
+                        <h5>Follow Us</h5>
+                        <img src="./assets/images/about/home_line.png" alt="" />
+                        <div class="social-icons">
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i> Linkedin</a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="address">
+                        <h5>Address</h5>
+                        <img src="./assets/images/about/home_line.png" alt="" class="img-fluid" />
+                        <div class="address-links">
+                            <li class="address1"><i class="fa-solid fa-location-dot"></i>Endeavour Hills Victoria,
+                                Australia PO Box: 3802 Australia</li>
+                            <li><a href="tel:61488896118"><i class="fa-solid fa-phone"></i>+61 4888 96 118</a></li>
+                            <li><a href="mailto:help@learnwithfraternity.com"><i
+                                        class="fa-solid fa-envelope"></i>help@helpwithspss.com</a></li>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <section id="copy-right">
+        <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>
+            lorem ispum lorem ispum 2012 - <span id="year"></span> Powerd By <a href="#">lorem ispum</a>
+        </div>
+
+    </section>
+
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
