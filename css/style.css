@@ -64,6 +64,7 @@ P {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     background: #ffffff;
+    text-transform: uppercase;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     transition: all .5s ease-in-out;
@@ -381,9 +382,10 @@ P {
 /* =============== services ============= */
 @media only screen and (min-width: 1200px) and (max-width: 1920px) {
     .single-about {
-        height: 340px;
+        height: 400px;
     }
 }
+
 
 .single-about {
     padding: 30px 20px;
@@ -428,13 +430,13 @@ P {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-about {
-        height: 400px;
+        height: 480px;
     }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
     .single-about {
-        height: 380px;
+        height: 450px;
     }
 }
 
@@ -605,6 +607,56 @@ P {
     }
 }
 
+/* ============benefits======== */
+
+
+.benefits {
+    background-color: #fcf2f8
+}
+
+.benefite_main_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px 20px;
+}
+
+.benefit_box {
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.benefit_box h3 {
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 4px solid;
+    border-color: #82074a;
+}
+
+/* ==========seo-text============ */
+
+.seolist{
+    padding-left: 0;
+    
+}
+.seolist li{
+    margin-bottom: 3px;
+    /* list-style: disc; */
+    /* margin-left: 1rem; */
+}
+.seolist li::before{
+    content:"\f058";
+    color:#82074a;
+    font-family:'Font Awesome 5 Free';
+    font-weight:900;
+    margin-right: .5rem;
+}
+li::marker{
+    color: #540731;
+}
 /* =========testimonial================ */
 .testimonial {
     background-color: #fcf2f8
@@ -649,7 +701,8 @@ P {
     right: 0;
     bottom: 0;
 }
-.swiper-slide.swiper-slide-active{
+
+.swiper-slide.swiper-slide-active {
     background-color: #fbedf4;
     /* color: #fff; */
 }

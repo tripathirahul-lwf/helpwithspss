@@ -2,4 +2,31 @@
     .margin {
         margin-top: 0;
     }
+
+    .road-map-main {
+        margin: 50px 0 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .headings {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: #82074a;
+        text-align: center;
+    }
 }
