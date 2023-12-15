@@ -159,12 +159,19 @@ P {
 }
 
 .rating .number {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
     margin-right: 1rem;
     color: #82074a;
 }
-
+.basedon{
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 6px;
+    color: #540731;
+    font-weight: 600;
+    text-shadow: 0 1px  #540731;
+}
 .rating svg {
     color: goldenrod;
 }
@@ -644,8 +651,6 @@ P {
 }
 .seolist li{
     margin-bottom: 3px;
-    /* list-style: disc; */
-    /* margin-left: 1rem; */
 }
 .seolist li::before{
     content:"\f058";
@@ -657,15 +662,31 @@ P {
 li::marker{
     color: #540731;
 }
+.seoSingle_box_main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 20px;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+.seoSingle_box{
+    padding: 30px 50px;
+    background-color: #fdd3ec;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.seoSingle_box h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: #b00865;
+}
 /* =========testimonial================ */
 .testimonial {
-    background-color: #fcf2f8
+    background-color: #fcf2f8;
 }
 
 .tranding-slider {
-    /* padding: 60px 0; */
     height: 500px;
-    /* height: 100%; */
     position: relative;
 }
 
@@ -703,8 +724,8 @@ li::marker{
 }
 
 .swiper-slide.swiper-slide-active {
-    background-color: #fbedf4;
-    /* color: #fff; */
+    background-color: #f0ccde;
+    /* background-color: #fbedf4; */
 }
 
 .swiper-slide-shadow-left,

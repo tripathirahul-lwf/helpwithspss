@@ -1,3 +1,8 @@
+const closeNav = () => {
+    let b = document.getElementById('collapsibleNavbar')
+    b.classList.remove('show')
+  };
+
 function toggleIcon(expandIconPlus, expandIconMinus, isOpen) {
     if (isOpen) {
         expandIconPlus.style.display = 'none';
@@ -98,3 +103,5 @@ let year = document.getElementById('year');
 let fullYear = new Date().getFullYear();
 
 year.innerHTML = fullYear;
+
+
