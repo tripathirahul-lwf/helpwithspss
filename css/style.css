@@ -881,25 +881,6 @@ details:not([open]) .icon-tabler-circle-minus {
         max-width: 600px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 
 
@@ -923,7 +904,10 @@ details:not([open]) .icon-tabler-circle-minus {
     background-image: url(../images/cards/v748-toon-111.png);
 }
 
-
+.logo-footer{
+    height: 70px;
+    margin-bottom: 1rem;
+}
 .social-links h2 {
     padding-bottom: 15px;
     font-size: 20px;
