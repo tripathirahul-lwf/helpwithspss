@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 576px) {
     .navbar-collapse {
-        top: 67px !important;
+        top: 93px !important;
         left: 10%;
         width: 80%;
     }
